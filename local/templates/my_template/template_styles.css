@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*
+	@media screen and (min-width: px) and (max-width: px) {
+		
+	}
+	font-family: 'PT Serif', serif;
+	
+	-webkit-box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5),0 1px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5),0 1px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.3),0 1px 0 rgba(0,0,0,0.1);
+	
+	-webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+*/
+
+html, body {margin:0; padding:0; font-family: 'Exo 2';}
+body {}
+a img {border:none;}
+a {color: #42657b;}
+a:hover { color: #900;}
+header, footer, section, article, aside { display: block;}
+.clb {clear:both;height:0px;}
+.container {}
+
+.header .top-wr{height: 100px; padding: 25px 0;}
+.header .mini_cart{
+	text-align: right;
+	position: relative;
+
+}
+.header .mini_cart .bag{
+	width: 4%;
+}
+a.top_logo img{ margin: auto; }
+.mini_cart{}
+.mini_cart p{}
+.mini_cart span{}
+.header .mini_cart a{
+	position: relative;
+}
+.header .mini_cart span.qunt {
+    background: #3b38af;
+    color: #fff;
+    padding: 0px 4px;
+    position: absolute;
+    right: 0px;
+}
+.header .mini_cart span.total {
+    margin-left: 8px;
+}
