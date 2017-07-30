@@ -35,82 +35,82 @@
 				</div>
 				<div class="col-md-6">
 					<div class="s-w">
-				<?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.search", 
-	".default", 
-	array(
-		"COMPONENT_TEMPLATE" => ".default",
-		"IBLOCK_TYPE" => "catalog",
-		"IBLOCK_ID" => "3",
-		"ELEMENT_SORT_FIELD" => "sort",
-		"ELEMENT_SORT_ORDER" => "asc",
-		"ELEMENT_SORT_FIELD2" => "id",
-		"ELEMENT_SORT_ORDER2" => "desc",
-		"HIDE_NOT_AVAILABLE" => "N",
-		"PAGE_ELEMENT_COUNT" => "30",
-		"LINE_ELEMENT_COUNT" => "3",
-		"PROPERTY_CODE" => array(
-			0 => "ATT_SKU",
-			1 => "ATT_CODE",
-			2 => "ATT_BRAND",
-			3 => "ATT_PRICE",
-			4 => "",
-		),
-		"OFFERS_FIELD_CODE" => array(
-			0 => "",
-			1 => "",
-		),
-		"OFFERS_PROPERTY_CODE" => array(
-			0 => "ATT_SIZE",
-			1 => "ATT_COLOR",
-			2 => "",
-		),
-		"OFFERS_SORT_FIELD" => "sort",
-		"OFFERS_SORT_ORDER" => "asc",
-		"OFFERS_SORT_FIELD2" => "id",
-		"OFFERS_SORT_ORDER2" => "desc",
-		"OFFERS_LIMIT" => "5",
-		"SECTION_URL" => "",
-		"DETAIL_URL" => "/catalog/#SECTION_CODE#/#ELEMENT_CODE#/",
-		"BASKET_URL" => "/personal/basket.php",
-		"ACTION_VARIABLE" => "action",
-		"PRODUCT_ID_VARIABLE" => "id",
-		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
-		"PRODUCT_PROPS_VARIABLE" => "prop",
-		"SECTION_ID_VARIABLE" => "SECTION_ID",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "36000000",
-		"DISPLAY_COMPARE" => "N",
-		"PRICE_CODE" => array(
-			0 => "BASE",
-		),
-		"USE_PRICE_COUNT" => "N",
-		"SHOW_PRICE_COUNT" => "1",
-		"PRICE_VAT_INCLUDE" => "Y",
-		"USE_PRODUCT_QUANTITY" => "N",
-		"CONVERT_CURRENCY" => "N",
-		"OFFERS_CART_PROPERTIES" => array(
-		),
-		"RESTART" => "N",
-		"NO_WORD_LOGIC" => "N",
-		"USE_LANGUAGE_GUESS" => "Y",
-		"CHECK_DATES" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"DISPLAY_TOP_PAGER" => "N",
-		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"PAGER_TITLE" => "Товары",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N"
-	),
-	false
-);?>
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:catalog.search", 
+							".default", 
+							array(
+								"COMPONENT_TEMPLATE" => ".default",
+								"IBLOCK_TYPE" => "catalog",
+								"IBLOCK_ID" => "3",
+								"ELEMENT_SORT_FIELD" => "sort",
+								"ELEMENT_SORT_ORDER" => "asc",
+								"ELEMENT_SORT_FIELD2" => "id",
+								"ELEMENT_SORT_ORDER2" => "desc",
+								"HIDE_NOT_AVAILABLE" => "N",
+								"PAGE_ELEMENT_COUNT" => "30",
+								"LINE_ELEMENT_COUNT" => "3",
+								"PROPERTY_CODE" => array(
+									0 => "ATT_SKU",
+									1 => "ATT_CODE",
+									2 => "ATT_BRAND",
+									3 => "ATT_PRICE",
+									4 => "",
+								),
+								"OFFERS_FIELD_CODE" => array(
+									0 => "",
+									1 => "",
+								),
+								"OFFERS_PROPERTY_CODE" => array(
+									0 => "ATT_SIZE",
+									1 => "ATT_COLOR",
+									2 => "",
+								),
+								"OFFERS_SORT_FIELD" => "sort",
+								"OFFERS_SORT_ORDER" => "asc",
+								"OFFERS_SORT_FIELD2" => "id",
+								"OFFERS_SORT_ORDER2" => "desc",
+								"OFFERS_LIMIT" => "5",
+								"SECTION_URL" => "",
+								"DETAIL_URL" => "/catalog/#SECTION_CODE#/#ELEMENT_CODE#/",
+								"BASKET_URL" => "/personal/basket.php",
+								"ACTION_VARIABLE" => "action",
+								"PRODUCT_ID_VARIABLE" => "id",
+								"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+								"PRODUCT_PROPS_VARIABLE" => "prop",
+								"SECTION_ID_VARIABLE" => "SECTION_ID",
+								"AJAX_MODE" => "N",
+								"AJAX_OPTION_JUMP" => "N",
+								"AJAX_OPTION_STYLE" => "Y",
+								"AJAX_OPTION_HISTORY" => "N",
+								"AJAX_OPTION_ADDITIONAL" => "",
+								"CACHE_TYPE" => "A",
+								"CACHE_TIME" => "36000000",
+								"DISPLAY_COMPARE" => "N",
+								"PRICE_CODE" => array(
+									0 => "BASE",
+								),
+								"USE_PRICE_COUNT" => "N",
+								"SHOW_PRICE_COUNT" => "1",
+								"PRICE_VAT_INCLUDE" => "Y",
+								"USE_PRODUCT_QUANTITY" => "N",
+								"CONVERT_CURRENCY" => "N",
+								"OFFERS_CART_PROPERTIES" => array(
+								),
+								"RESTART" => "N",
+								"NO_WORD_LOGIC" => "N",
+								"USE_LANGUAGE_GUESS" => "Y",
+								"CHECK_DATES" => "N",
+								"PAGER_TEMPLATE" => ".default",
+								"DISPLAY_TOP_PAGER" => "N",
+								"DISPLAY_BOTTOM_PAGER" => "Y",
+								"PAGER_TITLE" => "Товары",
+								"PAGER_SHOW_ALWAYS" => "N",
+								"PAGER_DESC_NUMBERING" => "N",
+								"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+								"PAGER_SHOW_ALL" => "N"
+							),
+							false
+						);?>
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -126,7 +126,27 @@
 				</div>
 			</div>
 		</div>
+		
+		<nav class="main-menu">
+			<?$APPLICATION->IncludeComponent("bitrix:menu", "top_menu", Array(
+	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+		"CHILD_MENU_TYPE" => "top",	// Тип меню для остальных уровней
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"MAX_LEVEL" => "1",	// Уровень вложенности меню
+		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
+		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+		"ROOT_MENU_TYPE" => "top",	// Тип меню для первого уровня
+		"USE_EXT" => "Y",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		"COMPONENT_TEMPLATE" => "my_bottom_menu"
+	),
+	false
+);?>
+		</nav>
+
 	</div>	
+	<div class="clf"></div>
 	 <?if ($APPLICATION->GetCurDir()=='/'):?>
 		<div class="slider">
 			<div class="clearfix7">
